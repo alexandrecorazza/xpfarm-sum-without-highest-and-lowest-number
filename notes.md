@@ -28,3 +28,5 @@ If an empty value ( null, None, Nothing etc. ) is given instead of an array, or 
 # Podmodoro 1 🍅:
 Driver: Alexandre
 Navigator: Alexandre
+
+1. Return 0 if an empty value is given as input ✅

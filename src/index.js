@@ -1,6 +1,7 @@
-const myFunction = () => {
+const sum = () => {
+  return false
 };
   
 module.exports = {
-  myFunction,
+  sum,
 };
