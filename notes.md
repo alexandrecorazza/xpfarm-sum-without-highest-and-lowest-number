@@ -30,3 +30,4 @@ Driver: Alexandre
 Navigator: Alexandre
 
 1. Return 0 if an empty value is given as input ✅
+2. Return 0 if the given array is an empty list ✅
