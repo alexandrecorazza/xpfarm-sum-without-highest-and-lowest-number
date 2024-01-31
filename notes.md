@@ -3,23 +3,28 @@
 **Label**  
 ✅ done 🚧 WIP ❌ ERROR
 
+**Task**
+Sum all the numbers of a given array ( cq. list ), except the highest and the lowest element ( by value, not by index! ).
+The highest or lowest element respectively is a single element at each edge, even if there are more than one with the same value.
+Mind the input validation.
+
+If an empty value ( null, None, Nothing etc. ) is given instead of an array, or the given array is an empty list or a list with only 1 element, return 0.
+
 **Example**
-TODO: Your task is to write a function called validSpacing() which checks if a string has valid spacing. The function should return either true or false.
 
-* 'Hello world'   => true
-* ' Hello world'  => false
-* 'Hello world  ' => false
-* 'Hello  world'  => false
-* 'Hello'         => true
+```
+{ 6, 2, 1, 8, 10 } => 16
+{ 1, 1, 11, 2, 3 } => 6
+```
 
-Even though there are no spaces, it is still valid because none are needed:
-* 'Helloworld'    => true
-* 'Helloworld '   => false
-* ' '             => false
-* ''              => true
+# Domains:
+- Sum all the numbers of a given array, except the highest and the lowest element.
+- Return 0 if:
+    - An empty value is given instead of an array
+    - The given array is an empty list
+    - A list with only 1 element
+
 
 # Podmodoro 1 🍅:
-Driver: Fulano
-Navigator: Ciclano
-
-1. The function must recever a paramether 🚧
+Driver: Alexandre
+Navigator: Alexandre
